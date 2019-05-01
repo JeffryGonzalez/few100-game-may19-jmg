@@ -1,3 +1,26 @@
-h1 {
-    color:red;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square {
+    width: 29.2%;
+    background-color: purple;
+    padding-bottom: 29.2%;
+    margin: 2%;
+    border-radius: 20%;
+    float: left;
+    transition: background 0.8s;
+    transition: border-radius 0.8s;
+}
+
+.square.winner {
+    background: gold;
+    border-radius: 40%;
+}
+
+.square.loser {
+    background: gray;
+    border-radius: 40%;
 }
